@@ -134,6 +134,42 @@
     .cta a:hover span {
             transform: scale(1.1);
         }
+    @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 10px;
+                text-align: center;
+            }
+            .contact-btn {
+                margin-top: 10px;
+            }
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                height: auto;
+                padding: 20px;
+            }
+            .left, .right {
+                flex: 100%;
+                padding-left: 0;
+            }
+            .left img {
+                max-width: 80%;
+            }
+            .certificates {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .certificates img {
+                width: 100px;
+            }
+            .cta a {
+                width: auto;
+                display: inline-flex;
+                justify-content: center;
+                padding: 10px 15px;
+            }
+        }
     </style>
 </head>
 <body>
